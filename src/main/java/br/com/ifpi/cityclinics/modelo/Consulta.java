@@ -2,8 +2,8 @@ package br.com.ifpi.cityclinics.modelo;
 
 import java.util.Calendar;
 /*
- * Reune os atribubtos necessários para as consultas cadastradas.
- * @author Ruan victor
+ * Reúne os atributos necessários para as consultas cadastradas.
+ * @author Ruan Victor
  * @author Rian Soares
  * */
 public class Consulta {
