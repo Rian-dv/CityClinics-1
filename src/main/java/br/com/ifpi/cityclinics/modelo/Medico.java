@@ -1,7 +1,7 @@
 package br.com.ifpi.cityclinics.modelo;
 /*
- * Reune os atribubtos necessários para os médicos cadastrados.
- * @author Ruan victor
+ * Reúne os atributos necessários para os médicos cadastrados.
+ * @author Ruan Victor
  * @author Rian Soares
  * */
 public class Medico {

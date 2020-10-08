@@ -11,8 +11,8 @@ import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 /*
  * Classe principal do projeto.
- * Reune os atribubtos necessários para as clinicas cadastradas.
- * @author Ruan victor
+ * Reúne os atributos necessários para as clínicas cadastradas.
+ * @author Ruan Victor
  * @author Rian Soares
  * */
 @Entity
