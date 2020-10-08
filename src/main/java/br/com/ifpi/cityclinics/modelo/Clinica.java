@@ -29,6 +29,8 @@ public class Clinica {
 	private String telefoneClinica;
 	private boolean aberta;
 	
+	//comentário teste
+	
 	//Getters & Setters/:
 	
 	public Calendar getDataDeCadastro() {
