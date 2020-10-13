@@ -28,87 +28,70 @@ public class Clinica {
 	private Calendar dataDeCadastro;
 	private String telefoneClinica;
 	private boolean aberta;
+	private String convenio;
+	private String especialidade;
 	
-	//Getters & Setters/:
+	//Getters & Setters:
 	
-	public Calendar getDataDeCadastro() {
-		return dataDeCadastro;
-	}
-
-	public boolean isAberta() {
-		return aberta;
-	}
-
-	public void setAberta(boolean aberta) {
-		this.aberta = aberta;
-	}
-
-	public String getTelefoneClinica() {
-		return telefoneClinica;
-	}
-
-	public void setTelefoneClinica(String telefoneClinica) {
-		this.telefoneClinica = telefoneClinica;
-	}
-
-	public void setDataDeCadastro(Calendar dataDeCadastro) {
-		this.dataDeCadastro = dataDeCadastro;
-	}
-
-	public String getEndereco() {
-		return endereco;
-	}
-
-	public void setEndereco(String endereco) {
-		this.endereco = endereco;
-	}
-
 	public long getId() {
 		return id;
 	}
-
-	public void setId(long Id) {
-		id = Id;
+	public void setId(long id) {
+		this.id = id;
 	}
-
-	public String getNome() {
-		return nomeClinica;
-	}
-
-	public void setNome(String nome) {
-		this.nomeClinica = nome;
-	}
-
-	public String getImagem() {
-		return imagemClinica;
-	}
-
-	public void setImagem(String imagem) {
-		this.imagemClinica = imagem;
-	}
-	
-	public String getHorarioFuncionamento() {
-		return horarioFuncionamento;
-	}
-
-	public void setHorarioFuncionamento(String horarioFuncionamento) {
-		this.horarioFuncionamento = horarioFuncionamento;
-	}
-
 	public String getNomeClinica() {
 		return nomeClinica;
 	}
-
 	public void setNomeClinica(String nomeClinica) {
 		this.nomeClinica = nomeClinica;
 	}
-
 	public String getImagemClinica() {
 		return imagemClinica;
 	}
-
 	public void setImagemClinica(String imagemClinica) {
 		this.imagemClinica = imagemClinica;
 	}
-
+	public String getHorarioFuncionamento() {
+		return horarioFuncionamento;
+	}
+	public void setHorarioFuncionamento(String horarioFuncionamento) {
+		this.horarioFuncionamento = horarioFuncionamento;
+	}
+	public String getEndereco() {
+		return endereco;
+	}
+	public void setEndereco(String endereco) {
+		this.endereco = endereco;
+	}
+	public Calendar getDataDeCadastro() {
+		return dataDeCadastro;
+	}
+	public void setDataDeCadastro(Calendar dataDeCadastro) {
+		this.dataDeCadastro = dataDeCadastro;
+	}
+	public String getTelefoneClinica() {
+		return telefoneClinica;
+	}
+	public void setTelefoneClinica(String telefoneClinica) {
+		this.telefoneClinica = telefoneClinica;
+	}
+	public boolean isAberta() {
+		return aberta;
+	}
+	public void setAberta(boolean aberta) {
+		this.aberta = aberta;
+	}
+	public String getConvenio() {
+		return convenio;
+	}
+	public void setConvenio(String convenio) {
+		this.convenio = convenio;
+	}
+	public String getEspecialidade() {
+		return especialidade;
+	}
+	public void setEspecialidade(String especialidade) {
+		this.especialidade = especialidade;
+	}
+	
 }
