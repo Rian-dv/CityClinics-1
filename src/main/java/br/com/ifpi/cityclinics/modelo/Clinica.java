@@ -30,6 +30,7 @@ public class Clinica {
 	private boolean aberta;
 	private String convenio;
 	private String especialidade;
+	private String exame;
 	
 	//Getters & Setters:
 	
@@ -92,6 +93,12 @@ public class Clinica {
 	}
 	public void setEspecialidade(String especialidade) {
 		this.especialidade = especialidade;
+	}
+	public String getExame() {
+		return exame;
+	}
+	public void setExame(String exame) {
+		this.exame = exame;
 	}
 	
 }
