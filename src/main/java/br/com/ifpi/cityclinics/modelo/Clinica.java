@@ -32,6 +32,8 @@ public class Clinica {
 	private String especialidade;
 	private String exame;
 	
+	//Rian E Mari
+	
 	//Getters & Setters:
 	
 	public long getId() {
